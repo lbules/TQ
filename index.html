@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天勤考核</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="logo logo-font">L O G O</div>
+            <div class="header-right">
+                <span class="icon iconfont">&#xe611;</span>
+                <span class="icon iconfont">&#xe609;</span>
+                <button class="logout logout-font">Log Out
+            </div>
+        </div>
+        </div>
+    </header>
+
+
+    <div class="main">
+        <div class="main-container">
+            <!-- 导航条 -->
+            <div class="navbar">
+                <!-- 导航头 -->
+                <div class="navbar-header">
+                    <p class="navbar-header-titleOne">Audience Overview</span>
+                    <p class="navbar-header-titleTwo">Roseville, CA</span>
+                </div>
+                <!-- 导航右侧列表 -->
+                <div class="navbar-right">
+                    <ul>
+                        <li>
+                            <a href="#">SETTINGS</a>
+                        </li>
+                        <li>
+                            <a href="#">CALENDAR</a>
+                        </li>
+                        <li>
+                            <a href="#">CALENDAR</a>
+                        </li>
+                        <li>
+                            <a href="#">PROJECTS</a>
+                        </li>
+                        <li>
+                            <a href="#">DASHBOA</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 轮播 -->
+            <div class="row">
+                <div class="slider">
+                    <ul id="imgList" class="imgList">
+                        <li><img src="../tq/img/0.jpg"></li>
+                        <li><img src="../tq/img/1.jpg"></li>
+                        <li><img src="../tq/img/2.jpg"></li>
+                        <li><img src="../tq/img/3.jpg"></li>
+                        <li><img src="../tq/img/4.jpg"></li>
+                    </ul>
+
+                    <!-- 中间圆点 -->
+                    <ul id="selction" class="sel-box">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <div id="left" class="left-btn">&lt;</div>
+                    <div id="rigth" class="rigth-btn">&gt;</div>
+                </div>
+
+                <div class="table">
+                    <div class="table-header">
+                        <div class="table-header-title">
+                            Support Requests
+                        </div>
+                        <div class="table-header-button">
+                            <button>View All</button>
+                        </div>
+                    </div>
+                    <hr style="border:1px solid#f5f8f9;">
+                    <div class="table-content">
+                        <table>
+                            <tr class="table-title-font">
+                                <td>TIME</td>
+                                <td>USER NAME</td>
+                                <td>STATUS</td>
+                            </tr>
+                            <tr class="table-content-font"> 
+                                <td>9:45pm</td>
+                                <td>info@design.com</td>
+                                <td>
+                                    <button class="table-content-button">Solved</button>
+                                </td>
+                            </tr>
+                            <tr class="table-content-font"> 
+                                <td>9:45pm</td>
+                                <td>info@design.com</td>
+                                <td>
+                                    <button class="table-content-button">Solved</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 图表部分 -->
+            <div class="chart">
+                <div id="line" class="chart-line"></div>
+                <div id="pie" class="chart-pie"></div>
+                <div id="histogram" class="chart-histogram"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <div class="logo logo-font">L O G O</div>
+            </div>
+            <div class="footer-info">
+                <table>
+                    <tr>
+                        <td><a href="#">NEWS</a></td>
+                        <td><a href="#">SPORT</a></td>
+                        <td><a href="#">WEATHER</a></td>
+                        <td><a href="#">FUTURE</a></td>
+                        <td><a href="#">TRAVEL</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">CHANNELS</a></td>
+                        <td><a href="#">CULTURE</a></td>
+                        <td><a href="#">AUTOS</a></td>
+                        <td><a href="#">FOOD</a></td>
+                        <td><a href="#">RADIO</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">OVERVIEW</a></td>
+                        <td><a href="#">NATURE</a></td>
+                        <td><a href="#">LOCAL</a></td>
+                        <td><a href="#">EARTH</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">TIMELNE</a></td>
+                        <td><a href="#">MUSIC</a></td>
+                        <td><a href="#">SHOP</a></td>
+                        <td><a href="#">TV</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/silder.js"></script>
+    <script src="./js/charts.js"></script>
+</body>
+
+</html>
